@@ -21,6 +21,10 @@ function devops{
 function webs{
     set-location c:\xampp\htdocs\webs
 }
+#poweroff set-up
+function poweroff{
+	Stop-Computer -COMPUTERNAME "localhost"
+}
 #Run to start
 HOSTNAME
 GET-DATE -f "yyyy. MMMM dd., dddd HH:mm:ss"
